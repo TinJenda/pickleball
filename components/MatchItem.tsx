@@ -49,7 +49,7 @@ export default function MatchItem({ matchNumber, match, teams, role, onUpdateSco
 
   return (
     <div className={`bg-white border rounded-lg p-3 sm:p-4 hover:shadow-md transition-shadow ${
-      hasScore ? 'border-green-200 bg-green-50' : 'border-gray-200'
+      hasScore ? 'border-green-200 !bg-green-50/70' : 'border-gray-200'
     }`}>
       <div className="flex items-center gap-2 sm:gap-4">
         <div className="flex-shrink-0">

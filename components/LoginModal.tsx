@@ -90,12 +90,6 @@ export default function LoginModal({ isOpen, onClose, onLogin }: LoginModalProps
             Đăng Nhập
           </button>
         </form>
-        
-        <div className="mt-4 p-3 bg-gray-50 rounded-lg text-sm text-gray-600">
-          <p className="font-medium mb-1">Thông tin đăng nhập:</p>
-          <p>Tên đăng nhập: <span className="font-mono">admin</span></p>
-          <p>Mật khẩu: <span className="font-mono">123456</span></p>
-        </div>
       </div>
     </div>
   );

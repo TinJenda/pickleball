@@ -41,10 +41,4 @@ class FirestoreAuthService implements AuthService {
   }
 }
 
-class LocalAuthService implements AuthService {
-  async login(username: string, password: string): Promise<boolean> {
-    return username === 'admin' && password === '123456';
-  }
-}
-
 export const authService: AuthService = new FirestoreAuthService();
